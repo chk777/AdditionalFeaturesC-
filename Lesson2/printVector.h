@@ -2,7 +2,7 @@
 used namespace std;
 
 template <typename T>
-void PrintVector(const vector<T*> &v)
+void printVector(const vector<T*> &v)
 {
 	auto iter = v.begin();
 	while (iter != v.end())

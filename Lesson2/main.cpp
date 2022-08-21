@@ -54,5 +54,5 @@ int main()
 	countVowels1();
 	countVowels2();
 	countVowels3();
-        countVowels4();
+    countVowels4();
 }
