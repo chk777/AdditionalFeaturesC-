@@ -15,10 +15,10 @@ void sortLines()
 	{
 		string buffer;
 		getline(ss, buffer, '.');
-		if (buffer[buffer.length()-1] == 0) lines.insert(std::make_pair(buffer.length() - 1, buffer));
-		else lines.insert(std::make_pair(buffer.length(), buffer));
+		if (buffer[buffer.length()-1] == 0) lines.insert(make_pair(buffer.length() - 1, buffer));
+		else lines.insert(make_pair(buffer.length(), buffer));
 	}
-	cout << "Sorted lines:\n";
+	cout << "sorted lines:\n";
 	for (const auto& line : lines)
 	{
 		if (line.first != 0) cout << line.second << endl;
